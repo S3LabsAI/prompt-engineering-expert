@@ -155,7 +155,7 @@ Scenario: [YOUR SCENARIO HERE]
         <copy>
           Headline: "Cut Project Delays by 40%"
           Body: "Teams waste 8 hours weekly on status updates. Our tool automates coordination..."
-        </copy>
+        </example>
       </example>
     </examples>
   </instructions>
@@ -184,7 +184,7 @@ As a prompt engineering expert, please:
 
 ## Example 7: Anti-Pattern Recognition
 
-### ❌ Ineffective Prompt
+### Ineffective Prompt
 ```
 "Analyze this data and tell me what you think about it. Make it good."
 ```
@@ -195,7 +195,7 @@ As a prompt engineering expert, please:
 - No success criteria
 - Ambiguous quality standard ("make it good")
 
-### ✅ Improved Prompt
+### Improved Prompt
 ```
 "Analyze this sales data to identify:
 1. Top 3 performing products (by revenue)

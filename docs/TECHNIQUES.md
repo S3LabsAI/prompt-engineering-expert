@@ -40,10 +40,10 @@ If I buy 5 apples and 3 oranges, how much do I spend?
 Let's think through this step by step:
 
 Step 1: Calculate apple cost
-- 5 apples × $2 per apple = $10
+- 5 apples x $2 per apple = $10
 
 Step 2: Calculate orange cost
-- 3 oranges × $3 per orange = $9
+- 3 oranges x $3 per orange = $9
 
 Step 3: Calculate total
 - $10 + $9 = $19
@@ -67,27 +67,27 @@ Providing examples to guide Claude's behavior without explicit instructions.
 #### 1-Shot (Single Example)
 Best for: Simple, straightforward tasks
 ```
-Example: "Happy" → Positive
-Now classify: "Terrible" →
+Example: "Happy" -> Positive
+Now classify: "Terrible" ->
 ```
 
 #### 2-Shot (Two Examples)
 Best for: Moderate complexity
 ```
-Example 1: "Great product!" → Positive
-Example 2: "Doesn't work well" → Negative
-Now classify: "It's okay" →
+Example 1: "Great product!" -> Positive
+Example 2: "Doesn't work well" -> Negative
+Now classify: "It's okay" ->
 ```
 
 #### Multi-Shot (Multiple Examples)
 Best for: Complex patterns, edge cases
 ```
-Example 1: "Love it!" → Positive
-Example 2: "Hate it" → Negative
-Example 3: "It's fine" → Neutral
-Example 4: "Could be better" → Neutral
-Example 5: "Amazing!" → Positive
-Now classify: "Not bad" →
+Example 1: "Love it!" -> Positive
+Example 2: "Hate it" -> Negative
+Example 3: "It's fine" -> Neutral
+Example 4: "Could be better" -> Neutral
+Example 5: "Amazing!" -> Positive
+Now classify: "Not bad" ->
 ```
 
 ### Best Practices
@@ -248,15 +248,15 @@ Breaking complex tasks into sequential prompts, using outputs as inputs.
 ### Structure
 ```
 Prompt 1: Analyze/Extract
-↓
+|
 Output 1: Structured data
-↓
+|
 Prompt 2: Process/Transform
-↓
+|
 Output 2: Processed data
-↓
+|
 Prompt 3: Generate/Synthesize
-↓
+|
 Final Output: Result
 ```
 
@@ -457,12 +457,12 @@ Explain the relationships.
 
 ## Anti-Patterns to Avoid
 
-### ❌ Vague Chaining
+### Vague Chaining
 ```
 "Analyze this, then summarize it, then give me insights."
 ```
 
-### ✅ Clear Chaining
+### Clear Chaining
 ```
 "Step 1: Extract key metrics from the data
 Step 2: Compare to industry benchmarks
@@ -470,23 +470,23 @@ Step 3: Identify top 3 opportunities
 Step 4: Recommend prioritized actions"
 ```
 
-### ❌ Unclear Role
+### Unclear Role
 ```
 "Act like an expert and help me."
 ```
 
-### ✅ Clear Role
+### Clear Role
 ```
 "You are a senior product manager with 10 years of experience 
 in SaaS companies. Your task is to..."
 ```
 
-### ❌ Ambiguous Format
+### Ambiguous Format
 ```
 "Give me the results in a nice format."
 ```
 
-### ✅ Clear Format
+### Clear Format
 ```
 "Format as a table with columns: Metric, Current, Target, Gap"
 ```

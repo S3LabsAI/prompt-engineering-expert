@@ -155,8 +155,8 @@ skill-name/
 - **Jailbreak vulnerabilities**: Prompts susceptible to manipulation
 
 ### Windows-Style Paths
-- ❌ Use: `C:\Users\Documents\file.txt`
-- ✅ Use: `/Users/Documents/file.txt` or `~/Documents/file.txt`
+- Use: `C:\Users\Documents\file.txt`
+- Use: `/Users/Documents/file.txt` or `~/Documents/file.txt`
 
 ### Too Many Options
 - Avoid offering 10+ choices

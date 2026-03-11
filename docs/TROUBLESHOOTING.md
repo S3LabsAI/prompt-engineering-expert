@@ -26,9 +26,9 @@
 
 **Example Fix:**
 ```
-❌ Before: "Summarize this article"
+Before: "Summarize this article"
 
-✅ After: "Summarize this article in exactly 3 bullet points, 
+After: "Summarize this article in exactly 3 bullet points, 
 each 1-2 sentences. Focus on key findings and implications."
 ```
 
@@ -58,9 +58,9 @@ each 1-2 sentences. Focus on key findings and implications."
 
 **Example Fix:**
 ```
-❌ Before: "What will happen to the market next year?"
+Before: "What will happen to the market next year?"
 
-✅ After: "Based on current market data, what are 3 possible 
+After: "Based on current market data, what are 3 possible 
 scenarios for next year? For each, explain your reasoning and 
 note your confidence level (high/medium/low)."
 ```
@@ -92,9 +92,9 @@ note your confidence level (high/medium/low)."
 
 **Example Fix:**
 ```
-❌ Before: "How can I improve my business?"
+Before: "How can I improve my business?"
 
-✅ After: "I run a SaaS company with $2M ARR. We're losing 
+After: "I run a SaaS company with $2M ARR. We're losing 
 customers to competitors. What are 3 specific strategies to 
 improve retention? For each, explain implementation steps and 
 expected impact."
@@ -127,9 +127,9 @@ expected impact."
 
 **Example Fix:**
 ```
-❌ Before: "Explain machine learning"
+Before: "Explain machine learning"
 
-✅ After: "Explain machine learning in 2-3 paragraphs for 
+After: "Explain machine learning in 2-3 paragraphs for 
 someone with no technical background. Focus on practical 
 applications, not theory."
 ```
@@ -161,9 +161,9 @@ applications, not theory."
 
 **Example Fix:**
 ```
-❌ Before: "List the top 5 products"
+Before: "List the top 5 products"
 
-✅ After: "List the top 5 products in JSON format:
+After: "List the top 5 products in JSON format:
 {
   \"products\": [
     {\"name\": \"...\", \"revenue\": \"...\", \"growth\": \"...\"}
@@ -198,9 +198,9 @@ applications, not theory."
 
 **Example Fix:**
 ```
-❌ Before: "How do I manipulate people?"
+Before: "How do I manipulate people?"
 
-✅ After: "I'm writing a novel with a manipulative character. 
+After: "I'm writing a novel with a manipulative character. 
 How would a psychologist describe manipulation tactics? 
 What are the psychological mechanisms involved?"
 ```
@@ -232,9 +232,9 @@ What are the psychological mechanisms involved?"
 
 **Example Fix:**
 ```
-❌ Before: [5000 word prompt with full documentation]
+Before: [5000 word prompt with full documentation]
 
-✅ After: [500 word prompt with links to detailed docs]
+After: [500 word prompt with links to detailed docs]
 "See REFERENCE.md for detailed specifications"
 ```
 
@@ -265,9 +265,9 @@ What are the psychological mechanisms involved?"
 
 **Example Fix:**
 ```
-❌ Before: "Analyze this Q3 sales data..."
+Before: "Analyze this Q3 sales data..."
 
-✅ After: "Analyze this [PERIOD] [METRIC] data. 
+After: "Analyze this [PERIOD] [METRIC] data. 
 Handle various formats: CSV, JSON, or table.
 If format is unclear, ask for clarification."
 ```
@@ -310,7 +310,7 @@ If format is unclear, ask for clarification."
 ## Quick Reference: Common Fixes
 
 | Problem | Quick Fix |
-|---------|----------|
+|---------|-----------|
 | Inconsistent | Add format specification + examples |
 | Hallucinations | Ask for sources + confidence levels |
 | Vague | Add specific details + examples |
